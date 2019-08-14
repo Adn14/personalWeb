@@ -1,0 +1,152 @@
+
+
+#top-header{
+	/*background-color: #121212;*/
+	background-color: #ffa442;
+	padding: 2px;
+	color: white;
+	text-align: center;
+	font-style: bold;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+.mid-header{
+	padding-top: 70px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #ffa442;
+}
+
+.profile-pic{
+	border-radius: 50%;
+}
+.pic-button{
+	border-radius: 100%;
+	border-color: black;
+	width: 80px;
+	height: 80px;
+	background-color: #262626;
+	color: white;
+	margin-left: 10px;
+	font-style: bold;
+	font-size: 15px;
+}
+
+.pic-button:hover{
+	border-color: white;
+	background-color: white;
+	color: black;
+	width: 90px;
+	height: 90px;
+}
+
+.content{
+	background-color: #121212;
+}
+.mid-content{
+	background-color: #262626;
+}
+.instruction-one{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	padding: 3px;
+}
+
+.info-button-wrapper{
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.info-button{
+	border-radius: 10%;
+	width: 110px;
+	height: 50px;
+	background-color: #262626;
+	color: white;
+	margin-left: 10px;
+	font-style: bold;
+	font-size: 15px;
+}
+
+.info-button:hover{
+	background-color: #ffa442;
+}
+
+.close-button{
+	border-radius: 10%;
+	width: 80px;
+	height: 30px;
+	background-color: #fff;
+	color: black;
+	margin-left: 10px;
+	font-style: bold;
+	font-size: 15px;
+	float:right;
+}
+
+.close-button:hover{
+	background-color: #262626;
+	color: white;
+}
+.details{
+	border-top: 1px solid rgba(0,0,0,0.25);
+	background-color: #262626;
+	padding: 20px;
+	
+}
+
+.details-wrapper{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#sub-title{
+	color: white;
+	font-size: 37px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(250,250,250,0.25);
+}
+
+.details-pic{
+	border-radius: 10%;
+	height: 300px;
+	margin-left: 50px;
+}
+
+.details-text{
+	color: white;
+
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #262626;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-2nd {
+  height: 30px;
+  width: 30px;
+  background-color: #262626;
+  border-radius: 50%;
+  display: inline-block;
+}
+body{
+	margin: 0px;
+	font-family: lato;
+
+}
+
+footer{
+	background-color: #121212;
+	height: 10%;
+}
+
+@font-face{
+	font-family: lato;
+	src:url(Lato-Regular.ttf);
+}
